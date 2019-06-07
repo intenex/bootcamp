@@ -14,6 +14,6 @@ The multiples of 5 below 1000 are 0, 5, 10...985, 990, 995. Their sum is 5\*sum(
 
 If we simply add the two summations, we will get a wrong answer because all multiples of 15 will be counted twice. To fix this, we must subtract the sum of multiples of 15 below 1000.
 
-The multiples of 15 below 1000 are 0, 15, 30...960, 975, 990 = 15\*sum(0, 1, 2...64, 65, 66) = 15*\66\*(66 + 1)/2 = 33165.
+The multiples of 15 below 1000 are 0, 15, 30...960, 975, 990 = 15\*sum(0, 1, 2...64, 65, 66) = 15\*66\*(66 + 1)/2 = 33165.
 
 Therefore our answer is 166833 + 99500 - 33165 = 233168.
